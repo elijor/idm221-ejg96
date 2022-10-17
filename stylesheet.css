@@ -1,34 +1,83 @@
-html { font-size: 100%}
+:root {
+    font-size: 16px;
+    --mainyellow: #FFE66D;
+    --mainblue: #4ECDC4;
+    --maindark: #292F36;
+    --mainred: #FF6B6B;
+    --text_margin1: 3%;
+    --offset_amount1: 90px;
+    --offset_amount2: 45px;
+}
 @font-face {
     font-family: 'FjallaOne', sans-serif;
     src: url(fonts/fjallaone-regular-webfont.woff) format('woff');
     font-style: normal;
     font-weight: normal;
 }
+
 h1 {
+    display: inline-block;
     color: white;
-    background-color: #292F36;
-    font-family: 'FjallaOne', Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2.5rem;
+    background-color: var(--maindark);
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'FjallaOne', sans-serif;
+    font-size: 4rem;
+    padding: 3%;
+    left: var(--text_margin1);
 }
-p {
-    color:#292F36;
+p, ul {
+    color: var(--maindark);
     font-family: helvetica;
     font-style: normal;
     font-size: 1rem;
-    line-height: 1.5rem;
+    line-height: 2rem;
+    left: var(--text_margin1);
 }
 h2 { 
-    background-color: #4ECDC4;
-    color:#292F36;
+    display: inline-block;
+    background-color: var(--mainblue);
+    color: var(--maindark);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-family: 'Oswald', sans-serif;
     font-style: normal;
-    font-size: 2rem;
+    font-size: 3rem;
+    padding: 2%;
+    position: relative;
+    left: var(--text_margin1);
  } 
  h3 {
-    color: #292F36;
+    display: inline-block;
+    padding: 1.5%;
+    background-color: var(--mainyellow);
+    color: var(--maindark);
     font-family: 'Oswald', sans-serif;
     font-style: normal;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    left: var(--text_margin1);
+ }
+ .caption {
+    display: inline-block;
+    position: relative;
+    background-color: var(--mainyellow);
+    padding: 2%;
+    bottom: var(--offset_amount2);
+    max-width: 85%;
+    left: var(--text_margin1);
+ }
+ h1.title, h3.title {
+    position: relative;
+    top: var(--offset_amount1);
+ }
+    
+ div.projdesc {
+    max-width: 90%;
+    padding: 2%;
+    display: inline-block;
+    background-color: white;
+    border-style: solid;
+    border-color: #292F36;
+    border-width: thin;
+    position: relative;
+    bottom: var(--offset_amount2);
+    left: var(--text_margin1)
  }
