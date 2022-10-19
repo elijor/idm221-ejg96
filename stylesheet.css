@@ -3,7 +3,7 @@
     --mainyellow: #FFE66D;
     --mainblue: #4ECDC4;
     --maindark: #292F36;
-    --mainred: #FF6B6B;
+    --mainred: #D70040;
     --text_margin1: 3%;
     --offset_amount1: 90px;
     --offset_amount2: 45px;
@@ -80,4 +80,12 @@ h2 {
     position: relative;
     bottom: var(--offset_amount2);
     left: var(--text_margin1)
+ }
+ li a {
+    display: block;
+    color: white;
+    border-style: solid;
+    border-width: medium;
+    padding: 2%;
+    background-color: var(--mainred);
  }
