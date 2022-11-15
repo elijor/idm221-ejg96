@@ -8,6 +8,7 @@
     --text_margin1: 3%;
     --offset_amount1: 90px;
     --offset_amount2: 45px;
+    --offset_amount2A: 10%;
     --offset_amount3: 25px;
 }
 @font-face {
@@ -113,13 +114,13 @@ h2 {
   }
   h3.imgtitle ~ img {
     position: relative;
-    bottom: var(--offset_amount3);
+    bottom: var(--offset_amount2);
     z-index: 10;
   }
   h3.imgtitle {
     position: relative;
-    top: var(--offset_amount3);
-    left: var(--offset_amount3); 
+    top: var(--offset_amount2A);
+    left: var(--offset_amount2); 
     margin-top: -(var(--offset_amount2));
     z-index: 20;
   }
