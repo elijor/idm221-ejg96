@@ -13,8 +13,8 @@
 }
 @font-face {
     font-family: 'FjallaOne', sans-serif;
-    src: url(fonts/fjallaone-regular-webfont.woff) format('woff');
-    src: url(fonts/FjallaOne-Regular.ttf) format('ttf');
+    src: url('fonts/fjallaone-regular-webfont.woff') format('woff'),
+    url('fonts/FjallaOne-Regular.ttf') format('ttf');
     font-style: normal;
     font-weight: normal;
 }
