@@ -125,6 +125,11 @@ h2 {
     margin-top: -(var(--offset_amount2));
     z-index: 20;
   }
+
+/* h1.contactheader {
+
+} */
+
   form {
     background-color: white;
     width: 85%;
