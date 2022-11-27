@@ -25,14 +25,19 @@
         Contact
     </h1>
     </header>
-    <div>
+    <div id="myform">
         <form>
-            <label for="name"> Name: </label> <br>
-            <input type="text" id="name"> <br>
-            <label for="email"> Email:</label> <br>
-            <input type="email" id="email"> <br>
-            <label for="message"> Message: </label> <br>
-            <input type="text" id="message"> <br> <br>
+            <!-- <label for="name"> Name: </label> <br> -->
+            <input type="text" id="name" placeholder="Full Name"> 
+            <br>
+            <!-- <label for="email"> Email:</label> <br> -->
+            <input type="email" id="email" placeholder="Email"> 
+             <br>
+            <!-- <label for="message"> Message: </label> <br> -->
+            <textarea id="message" name="message" placeholder="Message" 
+                style="height: 150px"> 
+            </textarea>
+             <br>
             <input type="submit" value="Submit">
         </form>
     </div>

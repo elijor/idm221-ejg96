@@ -125,3 +125,39 @@ h2 {
     margin-top: -(var(--offset_amount2));
     z-index: 20;
   }
+  form {
+    background-color: white;
+    width: 85%;
+    max-width: 900px;
+    margin: auto;
+    padding-top: 7%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #4ECDC4;
+  }
+  /* label {
+    margin-left: 7%;
+  } */
+  input {
+    position: relative;
+    width: 65%;
+    padding: 1%;
+    margin: 0px 15% 7% 15% ;
+}
+  textarea {
+    position: relative;
+    width: 65%;
+    padding: 1%;
+    margin: 0px 15% 7% 15% ;
+}
+  input:nth-child(5) {
+    vertical-align: top;
+  }
+  input::placeholder {
+    position: absolute;
+  }
+  input:last-child {
+    width: 25%;
+    background-color: #4ECDC4;
+    border-style: none;
+  }
