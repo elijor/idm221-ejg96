@@ -138,21 +138,13 @@ h2 {
   /* label {
     margin-left: 7%;
   } */
-  input {
+  input, textarea {
     position: relative;
-    width: 65%;
+    width: 80%;
     padding: 1%;
-    margin: 0px 15% 7% 15% ;
+    margin: 5% 8%
 }
-  textarea {
-    position: relative;
-    width: 65%;
-    padding: 1%;
-    margin: 0px 15% 7% 15% ;
-}
-  input:nth-child(5) {
-    vertical-align: top;
-  }
+
   input::placeholder {
     position: absolute;
   }
