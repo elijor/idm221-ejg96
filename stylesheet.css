@@ -13,10 +13,12 @@
     --offset_amount3: 25px;
 }
 @font-face {
-    font-family: "FjallaOne", sans-serif;
+    font-family: "FjallaOne";
+    src: url("fonts/FjallaOne-Regular.eot");
     src: url("fonts/fjallaone-regular-webfont.woff") format("woff"),
     url("fonts/FjallaOne-Regular.ttf") format("ttf"), 
-    url("fonts/FjallaOne-Regular.otf") format("opentype");
+    url("fonts/FjallaOne-Regular.otf") format("opentype"),
+    url("fonts/fjallaone-regular-webfont.woff2") format("woff2");
     font-style: normal;
     font-weight: normal;
 }
@@ -26,7 +28,7 @@ h1 {
     color: white;
     background-color: var(--maindark);
     font-family:  Verdana, Geneva, Tahoma, sans-serif;
-    font-family: 'FjallaOne', sans-serif;
+    font-family: 'FjallaOne';
     font-size: 4rem;
     padding: 3%;
     left: var(--text_margin1);
