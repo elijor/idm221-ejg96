@@ -58,6 +58,18 @@ h2 {
     font-size: 2.5rem;
     left: var(--text_margin1);
  }
+
+ h4 {
+    display: inline-block;
+    padding: 1.5%;
+    background-color: var(--mainred);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-size: 1.5rem;
+    left: var(--text_margin1);
+    position: relative;
+ }
  .caption {
     display: inline-block;
     position: relative;
@@ -66,12 +78,13 @@ h2 {
     bottom: var(--offset_amount2);
     max-width: 85%;
     left: var(--text_margin1);
+    
  }
- h1.title, h3.title {
+ .title {
     position: relative;
     top: var(--offset_amount1);
  }
-    
+
  div.projdesc {
     max-width: 90%;
     padding: 2%;
@@ -105,26 +118,34 @@ h2 {
     border: 3px solid var(--mainred);
   }
   q {
-    color: grey;
+    position: relative;
+    color: darkgray;
     font-family: helvetica;
-    font-style: normal;
+    font-style: italic;
     font-size: 1rem;
     line-height: 2rem;
     display: inline-block;
     margin: var(--text_margin1);
   }
-  h3.imgtitle ~ img {
-    position: relative;
-    bottom: var(--offset_amount2);
-    z-index: 10;
+  q + img {
+    margin: 25% 0 -10%;
   }
-  h3.imgtitle {
+ .imgtitle ~ img {
+    position: relative;
+    bottom: var(--offset_amount1);
+    z-index: -2;
+  }
+  img {
+    position: relative;
+    z-index: -1;
+  }
+  /* h3.imgtitle {
     position: relative;
     top: var(--offset_amount2A);
     left: var(--offset_amount2); 
     margin-top: -(var(--offset_amount2));
     z-index: 20;
-  }
+  } */
 
 /* h1.contactheader {
 
