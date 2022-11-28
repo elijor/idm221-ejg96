@@ -13,9 +13,10 @@
     --offset_amount3: 25px;
 }
 @font-face {
-    font-family: 'FjallaOne', sans-serif;
-    src: url('fonts/fjallaone-regular-webfont.woff') format('woff'),
-    url('fonts/FjallaOne-Regular.ttf') format('ttf');
+    font-family: "FjallaOne", sans-serif;
+    src: url("fonts/fjallaone-regular-webfont.woff") format("woff"),
+    url("fonts/FjallaOne-Regular.ttf") format("ttf"), 
+    url("fonts/FjallaOne-Regular.otf") format("opentype");
     font-style: normal;
     font-weight: normal;
 }
