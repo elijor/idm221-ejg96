@@ -22,6 +22,13 @@
     font-style: normal;
     font-weight: normal;
 }
+@font-face {
+    font-family:'Oswald' ;
+    src: url("fonts/oswald-v49-latin-700.eot");
+    src: url("fonts/oswald-v49-latin-700.ttf") format("ttf"),
+    url("fonts/Oswald-Bold.woff") format("woff"),
+    url("fonts/oswald-v49-latin-700.woff2") format("woff2");
+}
 
 h1 {
     display: inline-block;
@@ -46,7 +53,7 @@ h2 {
     background-color: var(--mainblue);
     color: var(--maindark);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald';
     font-style: normal;
     font-size: 3rem;
     padding: 2.5%;
