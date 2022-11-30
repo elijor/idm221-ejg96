@@ -23,7 +23,7 @@
     font-weight: normal;
 }
 @font-face {
-    font-family:'Oswald' ;
+    font-family:"Oswald";
     src: url("fonts/oswald-v49-latin-700.eot");
     src: url("fonts/oswald-v49-latin-700.ttf") format("ttf"),
     url("fonts/Oswald-Bold.woff") format("woff"),
@@ -161,7 +161,6 @@ h2 {
 /* h1.contactheader {
 
 } */
-
   form {
     background-color: white;
     width: 85%;
@@ -181,7 +180,6 @@ h2 {
     padding: 1%;
     margin: 5% 8%
 }
-
   input::placeholder {
     position: absolute;
   }
