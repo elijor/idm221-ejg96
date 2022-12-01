@@ -45,8 +45,8 @@ p, ul {
     font-family: helvetica;
     font-style: normal;
     font-size: 1rem;
-    line-height: 2rem;
-    margin: var(--text_margin1);
+    line-height: 1.6rem;
+    margin: 0 var(--text_margin1);
 }
 h2 { 
     display: block;
@@ -57,17 +57,17 @@ h2 {
     font-style: normal;
     font-size: 3rem;
     padding: 2.5%;
-    margin:  var(--text_margin1) auto;
+    margin:  3rem auto 1rem;
  } 
  h3 {
     display: inline-block;
     padding: 1.5%;
     background-color: var(--mainyellow);
     color: var(--maindark);
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald';
     font-style: normal;
     font-size: 2.5rem;
-    left: var(--text_margin1);
+    margin: 2rem auto 1rem ;
  }
 
  h4 {
@@ -139,7 +139,7 @@ h2 {
     margin: var(--text_margin1);
   }
   q + img {
-    margin: 25% 0 -10%;
+    margin: 4rem 0 -10%;
   }
  .imgtitle ~ img {
     position: relative;
@@ -150,17 +150,6 @@ h2 {
     position: relative;
     z-index: -1;
   }
-  /* h3.imgtitle {
-    position: relative;
-    top: var(--offset_amount2A);
-    left: var(--offset_amount2); 
-    margin-top: -(var(--offset_amount2));
-    z-index: 20;
-  } */
-
-/* h1.contactheader {
-
-} */
   form {
     background-color: white;
     width: 85%;
@@ -171,15 +160,13 @@ h2 {
     border-width: 5px;
     border-color: #4ECDC4;
   }
-  /* label {
-    margin-left: 7%;
-  } */
+
   input, textarea {
     position: relative;
     width: 80%;
     padding: 1%;
     margin: 5% 8%
-}
+  }
   input::placeholder {
     position: absolute;
   }
@@ -195,9 +182,21 @@ h2 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
-iframe {
+  iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
   }
+
+ h3.title {
+    margin: 0px 0px 3rem;
+ }
+ 
+ img + p {
+    margin: 1rem var(--text_margin1) 0;
+ }
+
+ h2 + h3 {
+    margin: 1rem 0 1rem ;
+ }
