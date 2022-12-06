@@ -149,6 +149,7 @@ h2 {
   img {
     position: relative;
     z-index: -1;
+    width: 100%;
   }
   form {
     background-color: white;
